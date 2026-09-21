@@ -2,24 +2,23 @@
   "config": {
     "step": {
       "user": {
-        "title": "Connect to Barco ClickShare",
-        "description": "Enable Remote control via API in ClickShare Configurator first. V2: CX/C/Bar, HTTPS port 4003. V1: legacy CS/CSE; port may differ by firmware.",
+        "title": "Barco ClickShare",
         "data": {
-          "host": "IP address / hostname",
+          "host": "Host",
           "username": "Username",
           "password": "Password",
-          "api_version": "API generation",
-          "port": "API port",
-          "verify_ssl": "Verify TLS certificate"
+          "api_version": "API version",
+          "port": "Port",
+          "verify_ssl": "Verify SSL"
         }
       }
     },
     "error": {
-      "cannot_connect": "Cannot connect to the ClickShare REST API",
-      "invalid_auth": "Invalid username or password"
+      "cannot_connect": "Cannot connect",
+      "invalid_auth": "Invalid authentication"
     },
     "abort": {
-      "already_configured": "This ClickShare is already configured"
+      "already_configured": "Already configured"
     }
   }
 }
